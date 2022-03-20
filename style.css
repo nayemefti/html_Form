@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #777;
+}
+.form{
+   margin: auto;
+   padding: 60px 230px ;
+}
+.form-box{
+    display: flex;
+}
+/* form left css section start  here */
+.form-left{
+    border: 1px solid #333;
+    background-color: #333333;
+    width: 350px;
+    height: 500px;
+}
+.left{
+    color: #fafdf7;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.left span a{
+    color: #fafdf7;
+    margin-top: 20px;
+    letter-spacing: 1em;
+}
+.left h1{
+    font-size: 36px;
+}
+.left h6{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.left p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+
+/* form left css section end here */
+
+/* ***************** */
+/* form right section start here */
+.form-right{
+    width: 350px;
+    height: 500px;
+    background-color: #fafdf7;
+}
+.right{
+    margin-top: 20px;
+}
+.right h1{
+    color: #44d094;
+    margin: 10px 30px;
+}
+.right p{
+    color: #777;
+    margin: 10px 30px;
+}
+.right input{
+    margin: 10px 30px;
+    width: 300px;
+    height: 25px;
+    border: 1px solid #44d094;
+}
+.right a button{
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    margin: 20px 30px;
+    background-color: #44d094;
+    border: 1px solid #44d094;
+}
+/* form right section end here */
